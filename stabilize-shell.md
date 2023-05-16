@@ -20,8 +20,7 @@ Simple copy and paste:
 ```
 python3 -c 'import pty;pty.spawn("/bin/bash");'
 export TERM=xterm
-
+```
 ctrl+z
 
-stty raw -echo;fg
-```
+`stty raw -echo;fg`
