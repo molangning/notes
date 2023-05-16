@@ -9,11 +9,11 @@ If python3 does not exist, try this instead:
 Afterwards, type the following commands to change terminal type to xterm:
 `export TERM=xterm`
 
-now press ctrl+Z to suspend the reverse shell and type in the following:
+Now press ctrl+Z to suspend the reverse shell and type in the following:
 
 `stty raw -echo;fg`
 
-the above command prevents the terminal from echoing back the typed in text
+The above command prevents the terminal from echoing back the typed in text
 and resumes the suspended reverse shell
 
 Simple copy and paste:
